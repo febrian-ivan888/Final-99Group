@@ -1,0 +1,432 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+.App {
+  text-align: center;
+  font-family: "prompt";
+  height: auto;
+  background-color: #e7e7e7;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  height: auto;
+}
+
+.Default {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  width: 544px;
+  height: auto;
+  box-shadow: 0px 4px 16px 0px #0b113433;
+  border-radius: 4px;
+  margin: 20px;
+}
+
+.detailscomponent1 {
+  display: flex;
+  gap: 3px;
+  text-align: left;
+  justify-content: space-between;
+}
+
+.logocom {
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  background-color: #98bafc;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+}
+
+.image {
+  margin-bottom: 10px;
+}
+
+.img1 {
+  height: 272px;
+  max-width: 544px;
+}
+
+.details {
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-bottom: 0;
+}
+
+.big1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.big1 .sec1 {
+  display: flex;
+  gap: 16px;
+}
+
+/* ----------------------------naming------------------------ */
+
+.name-address {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-top: 5px;
+}
+
+.hed {
+  text-decoration: none;
+  color: #1a2258;
+  font-weight: 500;
+  font-size: 21px;
+  margin: 0;
+}
+
+.sml {
+  text-decoration: none;
+  color: #787d9c;
+  font-weight: 300;
+  font-size: 12px;
+  margin: 0;
+}
+
+.sec2 .addresdet {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 2px;
+  margin-top: 14px;
+}
+
+.addresd {
+  text-decoration: none;
+  margin: 0;
+  color: #1a2258;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+/* -------------------------------pricing---------------------------------- */
+
+.Pricing {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  margin-top: 5px;
+  gap: 8px;
+}
+
+.prices {
+  display: flex;
+  gap: 5px;
+}
+
+.prices h2 {
+  font-size: 19px;
+}
+
+.prc-min,
+.prc-max,
+.gaps {
+  text-decoration: none;
+  color: #1a2258;
+  font-weight: 500;
+  font-size: 17px;
+  margin: 0;
+}
+
+.smlprc {
+  text-decoration: none;
+  color: #787d9c;
+  font-weight: 300;
+  font-size: 12px;
+  margin: 0;
+}
+
+/* ---------------description btn---------- */
+
+.description {
+  text-align: right;
+}
+
+.tab .desc {
+  text-decoration: none;
+  color: #216bff;
+  font-weight: 500;
+  font-size: 15px;
+  margin: 0;
+  text-align: right;
+  transition: 1s;
+}
+
+.tab .desc:hover {
+  color: #1a2258;
+}
+
+.tab input {
+  appearance: none;
+  position: fixed;
+}
+
+.tab .inner {
+  margin-top: 20px;
+  max-height: 0;
+  transition: 1s;
+  overflow: hidden;
+}
+
+.tab input:checked ~ .inner {
+  max-height: 740px;
+}
+
+.rad {
+  cursor: pointer;
+}
+
+/*----------------------------- number----------------- */
+
+.phoneNumber {
+  display: flex;
+  text-decoration: none;
+  color: #1a2258;
+  font-weight: 450;
+  font-size: 15px;
+  margin: 0;
+  gap: 5px;
+}
+
+.point {
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.phoneNumber .numberconts {
+  display: flex;
+  text-decoration: none;
+  color: #1a2258;
+  font-weight: 300;
+  font-size: 15px;
+  margin: 0;
+}
+
+/*----------------------------- moredetails---------------------- */
+
+.moredetails {
+  position: relative;
+  display: flex;
+  text-align: left;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.moredetails1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.describ {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  margin: 0;
+  margin-bottom: 24px;
+  height: auto;
+  max-width: 280px;
+}
+
+.describ p {
+  display: flex;
+  margin: 0;
+}
+
+.describ .descripts {
+  color: #1a2258;
+  text-align: left;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.moredetails1 .about {
+  position: relative;
+}
+
+.moredetails1 .about small {
+  color: #787d9c;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.moredetails1 .about h1 {
+  color: #1a2258;
+  font-weight: 500;
+  font-size: 18px;
+  margin: 0;
+}
+
+.call {
+  color: #787d9c;
+  margin-top: 10px;
+  font-weight: 300;
+  font-size: 15px;
+  max-width: 380px;
+  text-align: left;
+}
+
+@media screen and (max-width: 800px) {
+  .details {
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+  .Default {
+    width: 347px;
+    display: flex;
+    flex-direction: column;
+  }
+  .img1 {
+    height: 190px;
+    width: 347px;
+  }
+  .detailscomponent1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .name-address {
+    margin-top: 13px;
+  }
+  .hed {
+    font-size: 14px;
+  }
+  .sml {
+    font-size: 10px;
+    font-weight: 500;
+  }
+  .big2 {
+    margin-top: 15px;
+  }
+  .Pricing {
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    gap: 15px;
+  }
+  .prices h2 {
+    font-size: 14px;
+  }
+  .smlprc {
+    margin-top: 2px;
+    font-size: 10px;
+    font-weight: 500;
+  }
+  .addresd {
+    font-size: 13px;
+  }
+  .rad .desc {
+    font-size: 13px;
+  }
+  .rad {
+    margin: 0;
+    margin-top: 15px;
+  }
+  .phoneNumber,
+  .phoneNumber .numberconts {
+    font-size: 13px;
+  }
+  .describ .descripts {
+    font-size: 11px;
+  }
+  .moredetails1 .about small {
+    font-size: 11px;
+  }
+  .moredetails1 .about h1 {
+    font-size: 14px;
+  }
+  .describ {
+    max-width: 180px;
+  }
+  .call {
+    font-size: 11px;
+  }
+  .point {
+    font-size: 12px;
+  }
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  filter: invert(100%);
+  background-color: #216bff;
+}
+
+.carousel-indicators {
+  visibility: hidden;
+}
+
+.carousel .active {
+  display: none;
+}
+.rumah {
+  top: 60px;
+  left: 16px;
+  position: relative;
+  z-index: 2;
+}
+
+.flag {
+  display: flex;
+  background: none;
+}
+
+.base {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #ff72b6;
+  border-radius: 2px 0px 0px 0px;
+  padding: 2.5px, 2px, 2px, 2px;
+  width: 124px;
+  height: 21px;
+}
+
+.base .coms h1 {
+  font-size: 12px;
+  margin: 0;
+}
+
+.tri .arrow-right {
+  width: 0;
+  height: 0;
+  border-top: 11.3px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid #ff72b6;
+}
+
+.kotak .square {
+  background-color: #ce367f;
+  height: 4px;
+  width: 4px;
+  border-radius: 2px 0px 0px 2px;
+}
+
+.kotak .square2 {
+  background-color: #ff72b6;
+  height: 4px;
+  width: 4px;
+  border-radius: 0px 0px 0px 2px;
+  display: flex;
+  position: relative;
+  bottom: 4px;
+  z-index: -1;
+}
